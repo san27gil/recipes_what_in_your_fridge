@@ -1,2 +1,2 @@
-# recipes_what_in_your_fridge
-Recipes based on the ingredients you have or a random recommendation.  
+# Recipes based on either what's in your fridge or a random recommendation.
+ 
