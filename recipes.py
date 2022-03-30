@@ -12,7 +12,7 @@ print('''
 ingredients_list = []
 
 def recipes():
-    df = pd.read_csv('/Users/santi/Documents/PROGRAMACIÓN/Proyectos/Recipes/recetas.csv', index_col=0)
+    df = pd.read_csv('csv file', index_col=0)
     # Know number of ingredients required
     df['Required'] = df.iloc[:, 1:12].nunique(axis=1)
     new_list = ', '.join(ingredients_list)
@@ -30,7 +30,7 @@ def recipes():
 
 
 def ingredientes():
-    df = pd.read_csv('/Users/santi/Documents/PROGRAMACIÓN/Proyectos/Recipes/recetas.csv', index_col=0)
+    df = pd.read_csv('csv file', index_col=0)
     # Count unique ingredients:
     unique_values = set()
     for col in df.iloc[:, 1:12]:
@@ -42,7 +42,7 @@ def ingredientes():
 
 
 def random():
-    df = pd.read_csv('/Users/santi/Documents/PROGRAMACIÓN/Proyectos/Recipes/recetas.csv', index_col=0)
+    df = pd.read_csv('csv file', index_col=0)
     print(tabulate(df.sample().dropna(axis=1, how='all'), 
         headers='keys', tablefmt='pretty', showindex=False))
 
