@@ -1,4 +1,4 @@
-# Recipes based on what's in your fridge or a random suggestion.
+# Recipes based on what's in your fridge.
  <br>
- Write on Python language, with this code you can finally forgot about thinking what to eat.
+ Written in Python language, with this code you can finally forget about thinking about what to eat.
  
